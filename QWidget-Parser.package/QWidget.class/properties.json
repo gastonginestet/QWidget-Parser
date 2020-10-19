@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "QWidget-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"x",
+		"y",
+		"width",
+		"height",
+		"name",
+		"text"
+	],
+	"name" : "QWidget",
+	"type" : "normal"
+}

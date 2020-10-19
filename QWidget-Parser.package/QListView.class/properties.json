@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "QWidget",
+	"category" : "QWidget-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "QListView",
+	"type" : "normal"
+}
