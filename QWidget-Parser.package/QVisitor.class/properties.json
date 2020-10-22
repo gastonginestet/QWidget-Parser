@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"elements",
-		"xml"
+		"xml",
+		"defText",
+		"presText"
 	],
 	"name" : "QVisitor",
 	"type" : "normal"

@@ -1,9 +1,7 @@
 as yet unclassified
-createBaseClass	
-	| className |
-	className := 'SpWidget' , self name.
+createBaseClass
 	SpPresenter
-		subclass: className
+		subclass: self className
 		instanceVariableNames: ''
 		classVariableNames: ''
-		package: 'QWidget-Build'.
+		package: 'QWidget-Build'

@@ -11,7 +11,8 @@
 		"width",
 		"height",
 		"name",
-		"text"
+		"text",
+		"baseClassName"
 	],
 	"name" : "QWidget",
 	"type" : "normal"
