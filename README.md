@@ -1,6 +1,5 @@
 # QWidget-Parser
-
-En un [Pharo 8.0](https://pharo.org/download) , ejecutá este codigo para instalar el paquete `QWidget-Parser`:
+## Installation:
 
 ``` smalltalk
 Metacello new
@@ -8,7 +7,8 @@ Metacello new
 	repository: 'github://gastonginestet/QWidget-Parser';
 	load.
 ```
-Y en el Playground de Pharo , ejecutá estas líneas de código:
+## How to use:
+Use the QWidget-Parser to parse a GUI xml file from QTDesigner to Spec2 from Pharo:
 ``` 
 qv:= QVisitor new.
 qv visit: ruta-de-un-archivo-de-QTDesigner.xml .
