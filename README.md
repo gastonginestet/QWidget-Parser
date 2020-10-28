@@ -8,7 +8,7 @@ Metacello new
 	load.
 ```
 ## How to use:
-Use the QWidget-Parser to parse a GUI xml file from QTDesigner to Spec2 from Pharo:
+Use the QWidget-Parser to parse a GUI xml file from QTDesigner to Spec2 and build it from Pharo:
 ``` 
 qv:= QVisitor new.
 qv visit: ruta-de-un-archivo-de-QTDesigner.xml .
