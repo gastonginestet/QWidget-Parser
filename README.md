@@ -3,7 +3,7 @@
 
 ``` smalltalk
 Metacello new
-	baseline: 'QWidget-Parser';
+	baseline: 'QWidgetParser';
 	repository: 'github://gastonginestet/QWidget-Parser';
 	load.
 ```
