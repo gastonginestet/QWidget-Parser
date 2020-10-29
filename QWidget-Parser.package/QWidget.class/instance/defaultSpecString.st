@@ -1,3 +1,9 @@
 as yet unclassified
 defaultSpecString
-	^ self subclassResponsibility
+	^ 'add:#' , self name
+		,
+			' withConstraints: [ :c | 
+			c width:' , self width
+		,
+			'.
+			c height: ' , self height , ' ]'
