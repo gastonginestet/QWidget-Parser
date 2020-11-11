@@ -1,5 +1,6 @@
 as yet unclassified
 buildAll
+
 	| aSpClassBase lastQWidget |
 	defText := 'defaultSpec ^ SpBoxLayout newHorizontal '.
 	presText := 'initializePresenters '.
@@ -10,6 +11,6 @@ buildAll
 			self buildSubSpWidgets: aSpClassBase asClass.
 			self buildLastSpWidget: lastQWidget to: aSpClassBase asClass.
 			aSpClassBase asClass class compile: defText.
-			aSpClassBase asClass compile: presText .
+			aSpClassBase asClass compile: presText.
 			aSpClassBase asClass new openWithSpec ]
 		ifTrue: [ self buildSpWidgetOnlyBase ]

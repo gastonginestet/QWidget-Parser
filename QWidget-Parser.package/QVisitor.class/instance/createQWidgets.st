@@ -1,5 +1,6 @@
 initialization
 createQWidgets
+"Segun la lista de qWidgets registrados en el XML , recorre los elementos y crea una coleccion de objetos de QWidget "
 	| str |
 	self qWidgets
 		allElementsDo: [ :e | 
@@ -7,4 +8,8 @@ createQWidgets
 				ifEmpty: [ nil ]
 				ifNotEmpty: [ str := e attributeAt: 'class'.
 					self elements
-						add: ((Smalltalk at: str asSymbol) newFromXMLElement: e) ] ]
+						add:
+							((Smalltalk
+								at: str asSymbol
+								ifAbsent: (Smalltalk at: 'NullWidget' asSymbol))
+								newFromXMLElement: e) ] ]
