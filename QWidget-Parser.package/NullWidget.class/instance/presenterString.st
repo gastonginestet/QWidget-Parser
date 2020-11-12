@@ -1,3 +1,5 @@
 as yet unclassified
 presenterString
-	^ self name , ':= self newList'
+	^ self name , ':= self newButton
+		disable;
+		label: #null'

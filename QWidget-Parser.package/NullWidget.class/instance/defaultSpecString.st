@@ -1,6 +1,6 @@
 as yet unclassified
 defaultSpecString
-^ 'add:#listView'
+	^ 'add:#',self name
 		,
 			' withConstraints: [ :c | 
 			c width:' , self width
