@@ -1,7 +1,4 @@
 initialization
 visit: aXMLFileUrl
-	self
-		xml:
-			(XMLDOMParser
-				parseFileNamed:
-					aXMLFileUrl )
+	self xml: (XMLDOMParser parseFileNamed: aXMLFileUrl).
+	self createQWidgets
