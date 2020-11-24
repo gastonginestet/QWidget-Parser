@@ -1,6 +1,6 @@
 baselines
 baseline: spec
-	"Instala las dependencias QWidgetParser"
+	"Instala las dependencias para QWidgetParser"
 
 	<baseline>
 	spec
@@ -9,5 +9,4 @@ baseline: spec
 			spec
 				blessing: #baseline;
 				repository: 'https://github.com/gastonginestet/QWidget-Parser.git';
-				package: 'QWidget-Parser'
-					with: [ spec requires: #('XMLParser') ] ]
+				package: 'QWidget-Parser' with: [ spec requires: #('XMLParser') ] ]
