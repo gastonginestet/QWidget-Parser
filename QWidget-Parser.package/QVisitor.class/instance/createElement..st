@@ -1,5 +1,6 @@
 as yet unclassified
 createElement: aXmlElement
+"Crea un elemento en particular, si el elemento no se encuentra en la lista de elementos de QWidget , lo crea como NullWidget."
 	| str |
 	str := aXmlElement attributeAt: 'class'.
 	self elements

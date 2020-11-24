@@ -1,6 +1,6 @@
 as yet unclassified
 buildAll
-
+"Compila la creacion del objeto Spec y los elementos que estan en QTDesigner"
 	| aSpClassBase lastQWidget |
 	defText := 'defaultSpec ^ SpBoxLayout newHorizontal '.
 	presText := 'initializePresenters '.
