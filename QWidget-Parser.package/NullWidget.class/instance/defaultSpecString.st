@@ -1,6 +1,6 @@
 as yet unclassified
 defaultSpecString
-	^ 'add:#' , self name
+	^ 'add:#',self name
 		,
 			' withConstraints: [ :c | 
 			c width:' , self width
