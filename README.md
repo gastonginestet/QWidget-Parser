@@ -14,3 +14,4 @@ Metacello new
 ``` smalltalk
 QVisitor new buildWidgetsFrom:'your-route-to/TreeAndListExtendedVersion.ui' 
 ```
+![Demo ](https://j.gifs.com/91VQDD.gif)
