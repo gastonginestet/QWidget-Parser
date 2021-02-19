@@ -15,3 +15,6 @@ Metacello new
 QVisitor new buildWidgetsFrom:'your-route-to/TreeAndListExtendedVersion.ui' 
 ```
 ![Demo ](https://j.gifs.com/91VQDD.gif)
+
+## More info
+[QWidget-Parser Doc](https://github.com/gastonginestet/QWidget-Parser/wiki/Construcci%C3%B3n-Autom%C3%A1tica-de-ventanas-en-Pharo-Spec2)
